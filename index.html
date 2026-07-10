@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vexom SMP Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="hero-carousel" aria-hidden="true">
+        <div id="hero-track" class="hero-track"></div>
+    </div>
+    <div class="hero-content">
+        <img src="vx.png" alt="Vexom SMP Logo" width="200" height="200">
+        <h1>Vexom SMP</h1>
+        <p>Survival Only</p>
+        <a href="#join" class="button">Join Server</a>
+        <a href="#shop" class="button">shop</a>
+       <a href="#teams" class="button">teams</a>
+    </div>
+</header>
+
+
+<script>
+    const heroTrack = document.getElementById('hero-track');
+    const carouselImages = [
+        'carousel_images/photocontest.png',
+        'carousel_images/photocontest_battle.png',
+        'carousel_images/photocontest_end_spawn.png',
+        'carousel_images/photocontest_early_end_spawn.png',
+        'carousel_images/photocontest_landscape.png',
+        'carousel_images/photocontest_mafiabase.png',
+        'carousel_images/photocontest_monument.png',
+        'carousel_images/photocontest_spawn.png',
+        'carousel_images/photocontest_00.png'
+    ];
+
+    
+    const slides = [...carouselImages, ...carouselImages].map((imagePath) => `
+        <div class="hero-slide">
+            <img src="${imagePath}" alt="" loading="eager">
+        </div>
+    `).join('');
+
+    heroTrack.innerHTML = slides;
+</script>
+
+<section class="section">
+    <h2>About The Server</h2>
+    <p>The Vexom SMP was a server founded by Lukeantqueen and Alta in 2025 with the philosophy of providing a fully vanilla survival experience.</p>
+</section>
+
+<section class="section">
+    <h2>Credits</h2>
+    <ul style="list-style: none; padding: 0; text-align: center;">
+        <li><strong>Owner:</strong> Lukeantqueen</li>
+        <li><strong>Developer:</strong> GameonAce</li>
+        <li><strong>Administrator:</strong> Crazychild</li>
+        <li><strong>Moderator:</strong> AltaVulpez</li>
+        <li><strong>Hosting:</strong> Credits to Mint Servers</li>
+    </ul>
+</section>
+
+<section class="section">
+    <p><a href="https://discord.gg/vexomsmp" target="_blank" style="color: #4CAF50;">Join our Discord Community</a></p>
+</section>
+
+<section class="section" id="join">
+    <h2>How To Join</h2>
+    <p><strong>Bedrock and java server IP:</strong> play.vexiumsmp.net</p>
+    <p>Version: 26.2 and below</p>
+</section>
+<footer>
+    <p>© 2026 Vexom SMP | Not affiliated with Mojang</p>
+</footer>
+
+</body>
+</html>
+

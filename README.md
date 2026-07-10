@@ -1,1 +1,121 @@
-# Vexium-SMP-Website
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vexom smp home </title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #1e1e1e, #121212);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: url('https://wallpapercave.com/wp/wp2757874.jpg') center/cover;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #45a049;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-box {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #008000;
+    padding: 20px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="vx.png" alt="vx.png" width="200" height="200">
+    <h1>vexom smp</h1>
+    <p>Survival only</p>
+    <a href="#join" class="button">go to ip</a>
+</header>
+
+<section class="section">
+    <h2>About The Server</h2>
+    <p>(owner lukeantquean, dev gameonace, mod crazychild,mod2 AltaVulpez, 
+creds to mint servers )</p>
+<section class="section">
+    <h2>Extra</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>Eightjoker </h3>
+            <p><p>join the youtube @Eightjoker vexeoum</p>
+        </div>
+        <div class="feature-box">
+            <h3 Survival</h3>
+            <p> For more things like updates to the website,e please email Rzkimwar@gmail.com.</p>
+        </div>
+        <div class="feature-box">
+            <h3> discord</h3>
+            <p>MSG Lukeantquean Gamonace Eightjoker33306 or Asdo11 for the discord.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="join">
+    <h2>How To Join</h2>
+    <p><strong>Server IP:</strong> 149.56.30.223:25577 </p>
+    <p>Version: 1.21.11+</p>
+</section>
+
+<footer>
+    <p>© (last updated 2026) vexoum.smp | Not affiliated with Mojang</p>
+</footer>
+
+</body>
+</html>
